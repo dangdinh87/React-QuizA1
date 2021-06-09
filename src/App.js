@@ -357,7 +357,7 @@ class App extends React.Component {
 
     return (
       <div className="text-black relative font-sans ">
-        <div className=" bg-black absolute top-0">
+        <div className=" bg-black absolute " style={{max-width : 100vw}}>
           <img src={bg} className="bg-cover opacity-25 top-0" alt="hello" />
         </div>
         <div className="container mx-auto pt-10  relative">
